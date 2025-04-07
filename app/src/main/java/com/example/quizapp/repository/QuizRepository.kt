@@ -32,7 +32,7 @@ class QuizRepository @Inject constructor() {
             questionType = QuestionType.TEXT_INPUT,
             correctAnswers = listOf("SharedPreferences")
         ),
-        Question(
+       /* Question(
             questionText = "A Service in Android runs in the background to perform long-running operations",
             questionType = QuestionType.TRUE_FALSE,
             options = listOf("True", "False"),
@@ -50,7 +50,7 @@ class QuizRepository @Inject constructor() {
             questionType = QuestionType.SINGLE_CHOICE,
             options = listOf("onPause()", "onResume()", "onStart()", "onCreate()"),
             correctAnswers = listOf("onCreate()")
-        )
+        )*/
 
     )
 
